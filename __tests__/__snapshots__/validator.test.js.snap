@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator module properly tells if an object is required but the wrong type 1`] = `"Cannot cast >>2,3<< to Number"`;
+
+exports[`validator module properly tells if an object is required but the wrong type 2`] = `"Cannot cast >>garfieldAge<< to Number"`;
+
+exports[`validator module will throw an error if the field is not required, it is there and is is the wrong type 1`] = `"Cannot cast >>15<< to Boolean"`;
+
+exports[`validator module will throw error if the object type is required and the field is not there 1`] = `"error"`;
