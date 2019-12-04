@@ -1,4 +1,3 @@
-const { Validator } = require('../lib/validator');
 const { Schema } = require('../lib/schema');
 
 const schema = new Schema({
@@ -35,7 +34,7 @@ describe('schema module', () => {
     //1
     it('returns an object with all the right fields cast', () => {
         expect(schema.validate(spot)).toEqual({ name: 'spot', age: 5, weight: '20 lbs' });
-        expect(schema.validate(rover)).toEqual({ name: 'rover', age: 10 });
+        expect(schema.validate(rover)).toEqual({ name: 'rover', age: 10, weight: null });
     });
 
     //2

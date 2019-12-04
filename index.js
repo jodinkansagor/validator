@@ -33,11 +33,11 @@ const spot = {
     age: 5,
     weight: '20 lbs'
 };
-// console.log(isNumber('3'));
-// console.log(isString('hi'));
-// console.log(isBoolean(true));
-// console.log(isArray([3, 2]));
-// console.log(isObject({ name: 'JBJ', age: 41 }));
-// console.log(isFunction(() => {}));
-// console.log(nameValidator.validate(dog));
+console.log(isNumber('3'));
+console.log(isString('hi'));
+console.log(isBoolean(true));
+console.log(isArray([3, 2]));
+console.log(isObject({ name: 'JBJ', age: 41 }));
+console.log(isFunction(() => {}));
+console.log(nameValidator.validate(dog));
 console.log(schema);
