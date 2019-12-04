@@ -40,4 +40,4 @@ console.log(isArray([3, 2]));
 console.log(isObject({ name: 'JBJ', age: 41 }));
 console.log(isFunction(() => {}));
 console.log(nameValidator.validate(dog));
-console.log(schema);
+console.log(schema.validate(spot));
